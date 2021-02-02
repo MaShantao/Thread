@@ -6,3 +6,7 @@
 
 ​	手写线程池的代码已经实现了，线程池代码所在的包为**com.thread.threadpool**。关于线程池原理以及介绍，看博客[Java动手撸代码之手写线程池](https://blog.csdn.net/qq_34037358/article/details/113412745)
 
+## 2、ThreadLocal
+
+手写实现ThreadLocal，简易版的已经写完了，顺便把Jdk8的源码翻了翻，分析了一下，具体去看博客[一文全解ThreadLocal](https://blog.csdn.net/qq_34037358/article/details/113504875)
+
