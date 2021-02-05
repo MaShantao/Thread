@@ -10,3 +10,7 @@
 
 手写实现ThreadLocal，简易版的已经写完了，顺便把Jdk8的源码翻了翻，分析了一下，具体去看博客[一文全解ThreadLocal](https://blog.csdn.net/qq_34037358/article/details/113504875)
 
+## 3、读写锁
+
+手写实现ReadWriteLock，具体去看博客[读者写者问题](https://blog.csdn.net/qq_34037358/article/details/113696495)
+
