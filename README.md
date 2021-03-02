@@ -14,3 +14,6 @@
 
 手写实现ReadWriteLock，具体去看博客[读者写者问题](https://blog.csdn.net/qq_34037358/article/details/113696495)
 
+## 4、Future设计模型
+
+假设有个任务需要执行较长的时间，通常需要等待任务执行结束或者出错才能返回结果，在此期间调用者只能陷入阻塞苦苦等待，对此，Future设计模式提供了一种凭据式的解决方案。具体看博客[手写实现Future设计模式](https://blog.csdn.net/qq_34037358/article/details/114286268)

@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c93c298c-210a-4bdf-b55e-bea54f197dc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/readwritelock/ReadWriteClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/readwritelock/ReadWriteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/readwritelock/ReaderWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/readwritelock/SharedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/readwritelock/WriterWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/future/CallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/future/Future.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/future/FutureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/future/FutureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/future/FutureTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/future/FutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/future/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/threadlocal/ThreadLocalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/threadlocal/ThreadLocalSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thread/readwritelock/ReadWriteClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thread/readwritelock/ReadWriteClient.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +49,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.thread.future" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Java\IdeaProject\Thread\src\main\java\com\thread\readwritelock" />
     </key>
@@ -67,7 +71,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteClient">
+  <component name="RunManager" selected="Application.FutureTest">
+    <configuration name="FutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thread.future.FutureTest" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thread.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadWriteClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thread.readwritelock.ReadWriteClient" />
       <module name="Thread" />
@@ -109,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FutureTest" />
         <item itemvalue="Application.ReadWriteClient" />
         <item itemvalue="Application.ThreadLocalDemo" />
         <item itemvalue="Application.ThreadPoolTest" />
@@ -128,7 +146,9 @@
       <workItem from="1611972077231" duration="13515000" />
       <workItem from="1612160719719" duration="6491000" />
       <workItem from="1612226324270" duration="9697000" />
-      <workItem from="1612509667544" duration="5396000" />
+      <workItem from="1612509667544" duration="6879000" />
+      <workItem from="1612691675061" duration="98000" />
+      <workItem from="1614673839335" duration="4517000" />
     </task>
     <servers />
   </component>
